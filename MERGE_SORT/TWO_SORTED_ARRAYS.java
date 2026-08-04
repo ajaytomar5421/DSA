@@ -54,7 +54,9 @@ public class TWO_SORTED_ARRAYS {
         for (int i = 0; i < num2; i++) {
             arr2[i] = sc.nextInt();
         }
+        sc.close();
 
         sorted_Arr(arr1, arr2, new int[num1 + num2]);
+
     }
 }
